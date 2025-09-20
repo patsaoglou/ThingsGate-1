@@ -1,0 +1,186 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b470e014-149b-42d2-980c-a8a1f9690894")
+	(paper "A4")
+	(title_block
+		(title "ThingsGate-1")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 86.36 83.82)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84ee82fe-fe7e-41a1-bd0e-a88bdc6c5a17")
+		(property "Sheetname" "Power Supply"
+			(at 86.36 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 86.36 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsGate-1"
+				(path "/b470e014-149b-42d2-980c-a8a1f9690894"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 83.82)
+		(size 17.78 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab5980ff-09d6-4729-895b-964e54cadba6")
+		(property "Sheetname" "Power Harvester"
+			(at 166.37 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Harvester.kicad_sch"
+			(at 166.37 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsGate-1"
+				(path "/b470e014-149b-42d2-980c-a8a1f9690894"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 83.82)
+		(size 19.05 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd17f72c-4d13-4679-bd3c-56ecb859e0fa")
+		(property "Sheetname" "IO"
+			(at 140.97 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 140.97 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsGate-1"
+				(path "/b470e014-149b-42d2-980c-a8a1f9690894"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 83.82)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e00fcd44-9245-479e-a548-7d5d1555425b")
+		(property "Sheetname" "Modules"
+			(at 110.49 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Modules.kicad_sch"
+			(at 110.49 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsGate-1"
+				(path "/b470e014-149b-42d2-980c-a8a1f9690894"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
