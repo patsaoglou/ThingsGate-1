@@ -3622,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ThingsCore-1:TF-SMD_TF-123-ARP9H15"
+		(property "Footprint" "ThingsGate-1:TF-SMD_TF-123-ARP9H15"
 			(at 0 0 0)
 			(effects
 				(font

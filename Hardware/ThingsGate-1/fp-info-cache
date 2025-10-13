@@ -1,4 +1,4 @@
-26445585577939963
+26471933162336557
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103977,6 +103977,104 @@ test point THT pad
 0
 1
 1
+ThingsCore-1
+BGA96C80P9X16_750X1330X120
+96ball FBGA Package
+Integrated Circuit
+0
+96
+96
+ThingsCore-1
+BGA153C50P14X14_1300X1150X100
+
+
+0
+153
+153
+ThingsCore-1
+LFBGA-289_14x14mm_Layout17x17_P0.8mm
+LFBGA-289, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
+BGA 289 0.8
+0
+289
+289
+ThingsCore-1
+L_0805_2016
+Inductor, Murata, DFE201610P, 2.0x1.6x1.0mm, (https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe201610p.ashx), generated with kicad-footprint-generator gen_inductor.py
+power chip flatwire
+0
+2
+2
+ThingsCore-1
+Logo
+
+
+0
+0
+0
+ThingsCore-1
+PCIE-52P-EDGEFULL
+
+
+0
+54
+52
+ThingsCore-1
+QFN40P400X400X90-33N-D
+QFN32_
+Integrated Circuit
+0
+49
+33
+ThingsCore-1
+RESCAXS50P400X160X55-16N
+
+
+0
+16
+16
+ThingsCore-1
+SON127P800X600X80-9N-D
+W25Q256JVEIQ
+Integrated Circuit
+0
+9
+9
+ThingsCore-1
+TF-PUSH
+
+
+0
+13
+13
+ThingsCore-1
+TF-SMD_TF-123-ARP9H15
+
+
+0
+13
+13
+ThingsCore-1
+TS1088AR02016
+TS-1088-AR02016-1
+Switch
+0
+2
+2
+ThingsCore-1
+VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm
+VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+34
+25
+ThingsGate-1
+691313710002
+
+
+0
+2
+2
 ThingsGate-1
 DUAL_USB-TYPE_A
 
@@ -103995,6 +104093,13 @@ ThingsGate-1
 L_0730-6R8M
 Choke, SMD, 7.3x7.3mm 3.5mm height
 Choke SMD
+0
+2
+2
+ThingsGate-1
+L_0805_2016
+Inductor, Murata, DFE201610P, 2.0x1.6x1.0mm, (https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe201610p.ashx), generated with kicad-footprint-generator gen_inductor.py
+power chip flatwire
 0
 2
 2

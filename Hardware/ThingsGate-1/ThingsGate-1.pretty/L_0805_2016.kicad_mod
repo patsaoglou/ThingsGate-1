@@ -1,0 +1,134 @@
+(footprint "L_0805_2016"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Murata, DFE201610P, 2.0x1.6x1.0mm, (https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe201610p.ashx), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "power chip flatwire")
+	(property "Reference" "REF**"
+		(at 0.025 -1.75 0)
+		(layer "F.SilkS")
+		(uuid "ba5d4b40-5e93-47ec-ad7c-d9c02cf5c398")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_0805_2016"
+		(at 0 1.775 0)
+		(layer "F.Fab")
+		(uuid "d5b67062-4b43-425e-8fed-4ce6426183f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5bc7d61-54d0-4a36-b88e-9d55860b2f19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c784ba3f-db57-48ad-be42-693cd26be0ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.225 -1.06)
+		(end 1.275 -1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "451c49dc-9fcc-44f9-85f9-db103a45777a")
+	)
+	(fp_line
+		(start 1.275 1.05)
+		(end -1.225 1.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0e7113d-8635-4562-8b83-953dbdbd8e19")
+	)
+	(fp_rect
+		(start -1.375 -1.15)
+		(end 1.425 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "19a65638-ea63-4adb-abb1-1781e28898ef")
+	)
+	(fp_rect
+		(start -1.225 -0.8)
+		(end 1.275 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ced75adb-0f27-418d-928e-eb482a4057d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.55 0)
+		(layer "F.Fab")
+		(uuid "99b65e4a-18b8-40ce-b556-55e33e73f8e5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.8875 0)
+		(size 0.775 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "df2af7f2-ed5b-401d-8612-3ebca5b73ddf")
+	)
+	(pad "2" smd roundrect
+		(at 0.9125 0)
+		(size 0.825 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1ae1ccf4-0ddf-4a3f-93b6-ac1f5289c2f3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/ThingsGate-1.pretty/3D/TFM201610ALM-2R2MTAA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

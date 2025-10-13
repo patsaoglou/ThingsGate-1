@@ -1,0 +1,174 @@
+(footprint "691313710002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.635 0)
+		(layer "F.SilkS")
+		(uuid "6dcdb319-07d7-42ef-9fb0-e45335df593a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691313710002"
+		(at 4.12 11.365 0)
+		(layer "F.Fab")
+		(uuid "7fbbec0a-981a-4fd5-9533-364937bf0899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "477b80c4-5c05-4371-a149-3d118e330419")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d489dc6-fed0-483d-9c73-ec11c7bbfe03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.1 -2.1)
+		(end 6.1 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27e43dbb-be27-4495-aba6-2b60d585c616")
+	)
+	(fp_line
+		(start -6.1 10.1)
+		(end -6.1 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac37fc1a-ffb9-451e-8bdc-4fe1d319b4c6")
+	)
+	(fp_line
+		(start 6.1 -2.1)
+		(end 6.1 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a3bd785-8332-40c3-92d2-494928a748b4")
+	)
+	(fp_line
+		(start 6.1 10.1)
+		(end -6.1 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5080d56b-e979-4edc-b2d1-519544748e7c")
+	)
+	(fp_circle
+		(center -4.7 1.1)
+		(end -4.6 1.1)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8af0108c-6664-4c34-8af4-7f1a9a24c14a")
+	)
+	(fp_line
+		(start -6 -2)
+		(end -6 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35b8f812-ea8a-4d8d-824c-dc6a5be43763")
+	)
+	(fp_line
+		(start -6 10)
+		(end 6 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2909906c-e559-4d22-9d4f-6aaa11ef84c5")
+	)
+	(fp_line
+		(start 6 -2)
+		(end -6 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b405c688-ea0d-4075-be85-e845d6270758")
+	)
+	(fp_line
+		(start 6 10)
+		(end 6 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc308ddf-d48a-4d5d-8cd6-f183deb94dc2")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "477d019e-19f2-4fe5-a0bc-a8594016f2cb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4b06df0c-f6f6-4958-a764-cfdc874a12ea")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/ThingsGate-1.pretty/3D/691313710002.step"
+		(offset
+			(xyz 0 -4 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
