@@ -4665,7 +4665,7 @@
 	)
 	(rectangle
 		(start 21.844 149.098)
-		(end 160.02 268.478)
+		(end 116.84 268.478)
 		(stroke
 			(width 1.016)
 			(type dash)
@@ -4677,8 +4677,8 @@
 		(uuid 534d2f21-1890-46a2-b7f7-45787bb60b04)
 	)
 	(rectangle
-		(start 168.402 148.844)
-		(end 290.83 267.97)
+		(start 130.302 148.844)
+		(end 200.66 267.97)
 		(stroke
 			(width 1.016)
 			(type dash)
@@ -4703,6 +4703,19 @@
 		(uuid 771d870c-94c9-4785-a97d-8e3f8d6cec07)
 	)
 	(rectangle
+		(start 209.55 149.86)
+		(end 294.64 267.97)
+		(stroke
+			(width 1.016)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1ae3c5e-470f-4267-91c2-6b1e56f5992c)
+	)
+	(rectangle
 		(start 302.26 139.7)
 		(end 398.78 246.38)
 		(stroke
@@ -4714,6 +4727,19 @@
 			(type none)
 		)
 		(uuid ef795ad7-4cd9-40de-9962-3164722ff4d9)
+	)
+	(text "GPIO EXPANDER\n"
+		(exclude_from_sim no)
+		(at 237.236 145.288 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "02f22be6-f1a5-4ef8-9ef0-30bf2663bf98")
 	)
 	(text "USB HUB"
 		(exclude_from_sim no)
@@ -4743,7 +4769,7 @@
 	)
 	(text "LORAWAN GW SOM"
 		(exclude_from_sim no)
-		(at 202.692 145.034 0)
+		(at 164.592 145.034 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -5414,7 +5440,7 @@
 	)
 	(symbol
 		(lib_id "ThingsGate-1:mPCIE-52P-SLOT")
-		(at 85.09 243.84 0)
+		(at 64.77 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5423,7 +5449,7 @@
 		(fields_autoplaced yes)
 		(uuid "802477cb-2058-4a1c-b14a-aac10e317bc6")
 		(property "Reference" "U7"
-			(at 85.09 168.91 0)
+			(at 64.77 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5457,7 @@
 			)
 		)
 		(property "Value" "mPCIE-52P-SLOT"
-			(at 85.09 171.45 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5465,7 @@
 			)
 		)
 		(property "Footprint" "ThingsGate-1:mpcie-slot_full"
-			(at 86.36 250.698 0)
+			(at 66.04 251.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 243.84 0)
+			(at 64.77 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,7 +5483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 243.84 0)
+			(at 64.77 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5670,7 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:TCA9535PWR")
-		(at 431.8 185.42 0)
+		(at 251.46 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5653,7 +5679,7 @@
 		(fields_autoplaced yes)
 		(uuid "87d67acf-63df-4d8a-b611-230968393ff0")
 		(property "Reference" "U6"
-			(at 433.9433 157.48 0)
+			(at 253.6033 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5688,7 @@
 			)
 		)
 		(property "Value" "TCA9535PWR"
-			(at 433.9433 160.02 0)
+			(at 253.6033 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5697,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
-			(at 458.47 210.82 0)
+			(at 278.13 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5706,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9535.pdf"
-			(at 419.1 162.56 0)
+			(at 238.76 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5715,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, TSSOP-24 package"
-			(at 431.8 185.42 0)
+			(at 251.46 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5886,7 @@
 	)
 	(symbol
 		(lib_id "ThingsGate-1:mPCIE-52P-SLOT")
-		(at 220.98 242.57 0)
+		(at 163.83 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5869,7 +5895,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd1f0b12-417f-4ddb-8920-21da53b7ff00")
 		(property "Reference" "U8"
-			(at 220.98 167.64 0)
+			(at 163.83 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +5903,7 @@
 			)
 		)
 		(property "Value" "mPCIE-52P-SLOT"
-			(at 220.98 170.18 0)
+			(at 163.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +5911,7 @@
 			)
 		)
 		(property "Footprint" "ThingsGate-1:mpcie-slot_full"
-			(at 222.25 249.428 0)
+			(at 165.1 249.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 242.57 0)
+			(at 163.83 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 242.57 0)
+			(at 163.83 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

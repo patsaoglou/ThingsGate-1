@@ -105,16 +105,6 @@
 		(uuid "10f0b68a-55ce-4d48-9c54-026c7ed907ad")
 	)
 	(fp_line
-		(start 0 -50.95)
-		(end 0 5.1)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "eaa1b16a-cace-4c89-b7c9-0e9d5400b7a7")
-	)
-	(fp_line
 		(start 3.3 -50.95)
 		(end 3.3 -45.15)
 		(stroke
@@ -676,7 +666,8 @@
 		(size 5.8 5.8)
 		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(uuid "f26304b2-ee3f-493e-abb9-de1f386af9ee")
 	)
 	(pad "S4" thru_hole rect
