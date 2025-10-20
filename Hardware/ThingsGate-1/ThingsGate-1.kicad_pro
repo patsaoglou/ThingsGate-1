@@ -532,7 +532,53 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Modules/LTE_USB_D+": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/LTE_USB_D-": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/LWUSB_D+": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/LWUSB_D-": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB1_H+": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB1_H-": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB2_OTG+": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB2_OTG-": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB_OTG_VB1": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB_P1+": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB_P1-": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB_P2+": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB_P2-": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB_VB1": [
+        "TB_90R_DIFF"
+      ],
+      "/Modules/USB_VB2": [
+        "TB_90R_DIFF"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
