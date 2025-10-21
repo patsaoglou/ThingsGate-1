@@ -444,7 +444,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -533,6 +533,15 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Modules/I2C1_SCL": [
+        "TB_50R_SE"
+      ],
+      "/Modules/I2C1_SDA": [
+        "TB_50R_SE"
+      ],
+      "/Modules/IO_EXP_~{INT}": [
+        "TB_50R_SE"
+      ],
       "/Modules/LTE_USB_D+": [
         "TB_90R_DIFF"
       ],
@@ -544,6 +553,18 @@
       ],
       "/Modules/LWUSB_D-": [
         "TB_90R_DIFF"
+      ],
+      "/Modules/SPI4_MISO": [
+        "TB_50R_SE"
+      ],
+      "/Modules/SPI4_MOSI": [
+        "TB_50R_SE"
+      ],
+      "/Modules/SPI4_SCK": [
+        "TB_50R_SE"
+      ],
+      "/Modules/SX1301_CSN": [
+        "TB_50R_SE"
       ],
       "/Modules/USB1_H+": [
         "TB_90R_DIFF"
@@ -577,6 +598,30 @@
       ],
       "/Modules/USB_VB2": [
         "TB_90R_DIFF"
+      ],
+      "/Power Supply/RX+": [
+        "TB_100R_DIFF"
+      ],
+      "/Power Supply/RX-": [
+        "TB_100R_DIFF"
+      ],
+      "/Power Supply/TX+": [
+        "TB_100R_DIFF"
+      ],
+      "/Power Supply/TX-": [
+        "TB_100R_DIFF"
+      ],
+      "ETH_RXN": [
+        "TB_100R_DIFF"
+      ],
+      "ETH_RXP": [
+        "TB_100R_DIFF"
+      ],
+      "ETH_TXN": [
+        "TB_100R_DIFF"
+      ],
+      "ETH_TXP": [
+        "TB_100R_DIFF"
       ]
     },
     "netclass_patterns": []

@@ -1,4 +1,4 @@
-26473699854378893
+26477224058520217
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104111,6 +104111,13 @@ power chip flatwire
 2
 2
 ThingsGate-1
+NANO-SIM-SMD_SMN-305-ARP7
+
+
+0
+10
+10
+ThingsGate-1
 RJ45-TH_RJ45-202-007-02
 
 
@@ -104164,8 +104171,15 @@ ThingsCore-1
 
 mpci, pci, pci express
 0
-56
-56
+54
+54
+ThingsGate-1
+USB-A-TH_AF-ZJB13.7
+
+
+0
+6
+5
 ThingsGate-1
 USB_TYPE_A
 
@@ -104178,8 +104192,8 @@ mpcie-slot_full
 
 mpci, pci, pci express
 0
-56
-56
+54
+54
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
