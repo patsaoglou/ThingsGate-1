@@ -9,6 +9,113 @@
 		(rev "1")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -7099,6 +7206,12 @@
 		(uuid "3f423ddc-4d8f-4730-8a1a-2cbd09b76aa5")
 	)
 	(junction
+		(at 86.36 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fcf2255-2ff1-4310-9384-c06a78062114")
+	)
+	(junction
 		(at 87.63 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7473,6 +7586,10 @@
 		(uuid "9443ce11-f06d-443e-9d10-f543494988fe")
 	)
 	(no_connect
+		(at 267.97 187.96)
+		(uuid "949f3425-59e8-4bbe-a6a8-ff2d2c569c07")
+	)
+	(no_connect
 		(at 78.74 220.98)
 		(uuid "9cceabfc-4206-47e7-bc28-dc64f9f7212b")
 	)
@@ -7547,10 +7664,6 @@
 	(no_connect
 		(at 55.88 203.2)
 		(uuid "dd458104-f1ef-4b1f-86a5-66251792017d")
-	)
-	(no_connect
-		(at 82.55 97.79)
-		(uuid "e722b3a5-fdad-4a87-951c-bfe99643ed81")
 	)
 	(no_connect
 		(at 118.11 39.37)
@@ -7853,6 +7966,16 @@
 			(type default)
 		)
 		(uuid "1475c165-ee43-4441-b9fd-7678e7c7c35b")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 100.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15637d98-3c11-48c7-b2f4-6c419a83edc9")
 	)
 	(wire
 		(pts
@@ -9306,6 +9429,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 203.2) (xy 199.39 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f408a5-1461-466b-8a3a-ba6b5cbf134a")
+	)
+	(wire
+		(pts
 			(xy 54.61 205.74) (xy 55.88 205.74)
 		)
 		(stroke
@@ -9836,6 +9969,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af886fd2-9d31-4423-ab9d-4efc1183160e")
+	)
+	(wire
+		(pts
 			(xy 91.44 64.77) (xy 82.55 64.77)
 		)
 		(stroke
@@ -10176,16 +10319,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 172.72) (xy 307.34 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7270eba-f099-41d1-abc2-f616442c7555")
-	)
-	(wire
-		(pts
 			(xy 318.77 48.26) (xy 318.77 45.72)
 		)
 		(stroke
@@ -10343,6 +10476,16 @@
 			(type default)
 		)
 		(uuid "d6000afd-8602-4e7d-a667-ee1177584880")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6302fa7-03a9-470a-bb49-aa87b45e9be1")
 	)
 	(wire
 		(pts
@@ -10616,7 +10759,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 107.95) (xy 92.71 107.95)
+			(xy 82.55 107.95) (xy 86.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10763,16 +10906,6 @@
 			(type default)
 		)
 		(uuid "f757cdc2-449c-45f3-8450-81b5f0a044ba")
-	)
-	(wire
-		(pts
-			(xy 184.15 203.2) (xy 199.39 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ea8321-c758-4e9a-98ba-5d1d87d10705")
 	)
 	(wire
 		(pts
@@ -12938,6 +13071,16 @@
 		)
 		(uuid "b7213a02-bf8c-49e1-be37-518f60a45c34")
 	)
+	(label "PWR_ONRST"
+		(at 100.33 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "baffef88-95ba-4c89-9ac4-f5318d36316d")
+	)
 	(label "SOM_NRST"
 		(at 140.97 52.07 180)
 		(effects
@@ -13916,7 +14059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 307.34 170.18 270)
+		(at 307.34 172.72 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13926,7 +14069,7 @@
 		(fields_autoplaced yes)
 		(uuid "076d764e-ba73-436e-a601-aee3d829ede7")
 		(property "Reference" "#PWR0135"
-			(at 300.99 170.18 0)
+			(at 300.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13935,7 +14078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 170.18 0)
+			(at 302.26 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13944,7 +14087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 170.18 0)
+			(at 307.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,7 +14096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 170.18 0)
+			(at 307.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13962,7 +14105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 170.18 0)
+			(at 307.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,6 +15492,73 @@
 			(project "ThingsGate-1"
 				(path "/b470e014-149b-42d2-980c-a8a1f9690894/e00fcd44-9245-479e-a548-7d5d1555425b"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30f8d1f3-15c5-4066-9117-5754690a03f1")
+		(property "Reference" "TP7"
+			(at 105.41 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f1d1a5-9426-4952-88d4-376c32395348")
+		)
+		(instances
+			(project "ThingsGate-1"
+				(path "/b470e014-149b-42d2-980c-a8a1f9690894/e00fcd44-9245-479e-a548-7d5d1555425b"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -20952,6 +21162,73 @@
 			(project "ThingsGate-1"
 				(path "/b470e014-149b-42d2-980c-a8a1f9690894/e00fcd44-9245-479e-a548-7d5d1555425b"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9647682-0e45-4f6d-be79-9a5fa27984e9")
+		(property "Reference" "TP8"
+			(at 88.9 112.5219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 115.0619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "538c0092-603a-44c9-be99-656b14d3d569")
+		)
+		(instances
+			(project "ThingsGate-1"
+				(path "/b470e014-149b-42d2-980c-a8a1f9690894/e00fcd44-9245-479e-a548-7d5d1555425b"
+					(reference "TP8")
 					(unit 1)
 				)
 			)

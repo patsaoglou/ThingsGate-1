@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
+%TF.CreationDate,2025-10-22T18:56:13+03:00*%
+%TF.ProjectId,ThingsGate-1,5468696e-6773-4476-9174-652d312e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2025-10-22 18:56:13*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X12000000Y-12000000D02*
+X112000000Y-12000000D01*
+X112000000Y-112000000D01*
+X12000000Y-112000000D01*
+X12000000Y-12000000D01*
+M02*
