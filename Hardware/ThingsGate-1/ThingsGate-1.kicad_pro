@@ -482,9 +482,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "track_width": 0.1565,
+        "via_diameter": 0.9,
+        "via_drill": 0.45,
         "wire_width": 6
       },
       {
@@ -603,7 +603,7 @@
         "TB_100R_DIFF"
       ],
       "/Power Supply/RX-": [
-        "TB_100R_DIFF"
+        "Default"
       ],
       "/Power Supply/TX+": [
         "TB_100R_DIFF"
